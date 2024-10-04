@@ -1,0 +1,15 @@
+server:
+  port: 2238
+spring:
+  application:
+    name: Laptop-prediction
+  datasource:
+    url: jdbc:mysql://localhost:3306/laptopDetails
+    username: root
+    password: Abinaya@2003
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
